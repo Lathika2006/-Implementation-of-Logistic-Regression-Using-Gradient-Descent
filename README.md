@@ -8,11 +8,16 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+import pandas module and import the required data set.
+Find the null values and count them.
+Count number of left values.
+From sklearn import LabelEncoder to convert string values to numerical values.
+From sklearn.model_selection import train_test_split.
+Assign the train dataset and test dataset.
+From sklearn.tree import DecisionTreeClassifier.
+Use criteria as entropy.
+From sklearn import metrics.
+Find the accuracy of our model and predict the require values.
 ## Program:
 ```
 /*
@@ -100,9 +105,13 @@ print(y_prednew)
 ## Output:
 
 ![image](https://github.com/user-attachments/assets/f2002f62-7c90-4cad-96cc-ef3b01f49315)
+
 ![image](https://github.com/user-attachments/assets/433994e3-2031-48b0-99a6-eff93ffe348d)
+
 ![image](https://github.com/user-attachments/assets/f92bf293-8809-46dc-9c0b-d405f95d0fae)
+
 ![image](https://github.com/user-attachments/assets/6060cc4b-21ec-4b1b-a87b-3823469c1aa4)
+
 ![image](https://github.com/user-attachments/assets/cab01ba2-d4f5-405b-bd75-452765a545d0)
 
 
