@@ -9,14 +9,23 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 
 ## Algorithm
 import pandas module and import the required data set.
+
 Find the null values and count them.
+
 Count number of left values.
+
 From sklearn import LabelEncoder to convert string values to numerical values.
+
 From sklearn.model_selection import train_test_split.
+
 Assign the train dataset and test dataset.
+
 From sklearn.tree import DecisionTreeClassifier.
+
 Use criteria as entropy.
+
 From sklearn import metrics.
+
 Find the accuracy of our model and predict the require values.
 ## Program:
 ```
